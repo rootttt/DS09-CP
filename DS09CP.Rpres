@@ -1,28 +1,22 @@
-DS09CP
+Nifty Thrifty
 ========================================================
-author: 
-date: 
+author: Lovette Regner
+date: 7/27/2014
 
-First Slide
+About 'Nifty Thrifty'
 ========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+Be thrifty and nifty with these amazing features:
+- Monthly Budget (with tax calculations!)
+- Savings Estimate
+- Thrift Rank
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-Slide With Code
+Computations
 ========================================================
 
 ```{r}
-summary(cars)
-```
-
-Slide With Plot
-========================================================
-
-```{r, echo=FALSE}
-plot(cars)
+disposable <- (1-tax)*(monthlySal + invReturn)
+expenses <- rent + gas + car + utilities + dining + groceries + shopping + travel + health + insurance + misc
+savings <- disposable - expenses
+savingsRate <- savings/disposable
 ```
