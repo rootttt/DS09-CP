@@ -20,3 +20,8 @@ expenses <- rent + gas + car + utilities + dining + groceries + shopping + trave
 savings <- disposable - expenses
 savingsRate <- savings/disposable
 ```
+
+Thrift Rank
+========================================================
+
+You will find a randomized normal distribution of simulated savings of the rest of the world. Based on the person's saving's rate, the app will determine in which percentile the person belongs. This is visualised by a blue vertical line indicating where the user compares with the rest of the world in terms of savings rate.
